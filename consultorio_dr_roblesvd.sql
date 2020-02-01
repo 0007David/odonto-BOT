@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-10-2019 a las 06:11:54
+-- Tiempo de generación: 01-02-2020 a las 22:06:03
 -- Versión del servidor: 10.1.39-MariaDB
 -- Versión de PHP: 7.3.5
 
@@ -2514,7 +2514,9 @@ INSERT INTO `log` (`idlog`, `id_usuario`, `nombre_usuario`, `id_rol`, `accion`, 
 (1839, 1, 'admin', 1, 'Insertó', 'un producto a una consulta', '2019-07-04 08:05:40'),
 (1840, 1, 'admin', 1, 'Insertó', 'formulario de vida a la consul', '2019-07-04 08:06:13'),
 (1841, 1, 'admin', 1, 'registro', 'un venta', '2019-07-04 08:08:07'),
-(1842, 1, 'admin', 1, 'Ingreso', ' al Sistema', '2019-08-15 14:41:32');
+(1842, 1, 'admin', 1, 'Ingreso', ' al Sistema', '2019-08-15 14:41:32'),
+(1843, 1, 'admin', 1, 'Ingreso', ' al Sistema', '2020-02-01 21:04:29'),
+(1844, 1, 'admin', 1, 'Salio', 'del Sistema', '2020-02-01 21:04:44');
 
 -- --------------------------------------------------------
 
@@ -3728,7 +3730,7 @@ ALTER TABLE `horario`
 -- AUTO_INCREMENT de la tabla `log`
 --
 ALTER TABLE `log`
-  MODIFY `idlog` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1843;
+  MODIFY `idlog` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1845;
 
 --
 -- AUTO_INCREMENT de la tabla `mat_prima`
